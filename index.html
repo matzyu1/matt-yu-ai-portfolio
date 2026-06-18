@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Matt Yu AI portfolio: practical AI, data and productivity projects presented as a minimal editorial archive."
+    />
+    <title>Matt Yu | AI Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav page" aria-label="Primary navigation">
+        <a class="logo" href="#home" aria-label="Matt Yu AI portfolio home">Matt Yu / AI Archive</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+          <span class="sr-only">Open navigation</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#selected">Index</a></li>
+          <li><a href="#ai-projects">AI</a></li>
+          <li><a href="#data-projects">Data</a></li>
+          <li><a href="https://matt-yu.com" target="_blank" rel="noopener">Main Site</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home" class="site-main">
+      <section class="hero page" aria-labelledby="hero-title">
+        <div class="hero-meta reveal">
+          <span>AI portfolio</span>
+        </div>
+        <div class="hero-copy reveal">
+          <div>
+            <p class="section-kicker">Selected AI systems and portfolio tools</p>
+            <h1 id="hero-title">Practical AI workflows for job search, recruitment and analyst work.</h1>
+            <p>
+              A specialist subdomain for Matt Yu's AI-focused portfolio. The work is presented as a quiet project
+              archive: structured prototypes, honest local logic, clear human review boundaries and practical analyst
+              use cases.
+            </p>
+            <div class="inline-links" aria-label="Primary links">
+              <a href="#selected">View project index</a>
+              <a href="assets/Matt-Yu-Data-Analyst-CV.pdf" download>Download CV</a>
+              <a href="https://matt-yu.com" target="_blank" rel="noopener">Main portfolio</a>
+            </div>
+          </div>
+          <aside class="personal-panel" aria-label="Personal details">
+            <p class="section-kicker">Personal details</p>
+            <h2>Matt Yu</h2>
+            <p>
+              London-based Business Management graduate building practical AI and analytics projects for junior AI,
+              analyst, product and operations roles.
+            </p>
+            <p>
+              Open to junior AI, analyst and operations roles. Interested in teams that value practical workflow
+              design, clear documentation and grounded analysis.
+            </p>
+            <ul>
+              <li><span>Email</span><a href="mailto:matzyu41@gmail.com">matzyu41@gmail.com</a></li>
+              <li><span>Location</span>London, United Kingdom</li>
+              <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/matt-yu-80a207297/" target="_blank" rel="noopener">Profile</a></li>
+              <li><span>GitHub</span><a href="https://github.com/matzyu1" target="_blank" rel="noopener">matzyu1</a></li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section page two-column" id="selected">
+        <div class="section-label reveal">
+          <span>01</span>
+          <span>Selected index</span>
+        </div>
+        <div class="work-index reveal">
+          <header class="section-heading">
+            <h2>Curated project archive.</h2>
+            <p>Project rows are grouped by AI systems and connected data analysis case studies.</p>
+          </header>
+
+          <a class="project-row index-row" href="#recruiter-ai-screening">
+            <span class="row-number">AI-01</span>
+            <div>
+              <h3>Recruiter AI Screening Assistant</h3>
+              <p>Structured CV screening support with evidence, gaps and human review notes.</p>
+            </div>
+            <span class="row-tools">HTML / JS / Python / Streamlit</span>
+            <span class="row-action">View project</span>
+          </a>
+
+          <a class="project-row index-row" href="#ai-job-application">
+            <span class="row-number">AI-02</span>
+            <div>
+              <h3>AI Job Application Assistant</h3>
+              <p>Role-fit review, missing keywords and concise application feedback.</p>
+            </div>
+            <span class="row-tools">HTML / CSS / JavaScript</span>
+            <span class="row-action">View project</span>
+          </a>
+
+          <a class="project-row index-row" href="#writing-assistant-trainer">
+            <span class="row-number">AI-03</span>
+            <div>
+              <h3>Writing Assistant Trainer</h3>
+              <p>Local feedback loop for improving Custom GPT knowledge files.</p>
+            </div>
+            <span class="row-tools">Static app / localStorage</span>
+            <span class="row-action">View project</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section page two-column" id="ai-projects">
+        <div class="section-label reveal">
+          <span>02</span>
+          <span>AI projects</span>
+        </div>
+        <div class="archive-group reveal">
+          <header class="section-heading">
+            <h2>AI workflow systems.</h2>
+            <p>Prototype tools designed around structured inputs, transparent outputs, reusable workflows and human review.</p>
+          </header>
+
+          <article class="project-detail project-feature" id="recruiter-ai-screening">
+            <div class="project-detail-media">
+              <a href="https://screening.matt-yu.com" target="_blank" rel="noopener">
+                <img src="assets/thumbnails/CV_Screening_Assistant.gif" alt="Recruiter AI Screening Assistant preview" class="project-thumbnail" />
+              </a>
+            </div>
+            <div class="project-detail-copy">
+              <h3>Recruiter AI Screening Assistant</h3>
+              <p>
+                A browser prototype that compares a candidate CV against a role brief, scores the match against
+                must-have and nice-to-have criteria, highlights evidence from the CV, flags missing or weak areas, and
+                suggests interview questions for human review.
+              </p>
+              <div class="project-tags" aria-label="Recruiter AI Screening Assistant tags">
+                <span>Recruitment Review</span>
+                <span>CV Screening</span>
+                <span>Candidate Comparison</span>
+              </div>
+              <div class="project-notes">
+                <div>
+                  <h4>What it demonstrates</h4>
+                  <ul>
+                    <li>Structured CV-to-role matching logic</li>
+                    <li>Evidence-based screening outputs instead of vague AI judgement</li>
+                    <li>Candidate saving, comparison and export workflows</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4>Business value</h4>
+                  <p>
+                    Helps make early-stage recruitment screening more consistent, auditable and easier to compare, while
+                    keeping the final decision with a human reviewer.
+                  </p>
+                </div>
+              </div>
+              <dl class="project-meta">
+                <div><dt>Stack</dt><dd>HTML, CSS, JavaScript, local scoring rules</dd></div>
+                <div>
+                  <dt>Links</dt>
+                  <dd>
+                    <a href="https://screening.matt-yu.com" target="_blank" rel="noopener">Website</a>
+                    /
+                    <a href="https://github.com/matzyu1/recruiter-ai-screening-assistant" target="_blank" rel="noopener">View GitHub repo</a>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="project-detail project-feature" id="ai-job-application">
+            <div class="project-detail-media">
+              <a href="https://apply.matt-yu.com" target="_blank" rel="noopener">
+                <img src="assets/thumbnails/Job_Apply_Assistant.gif" alt="AI Job Application Assistant preview" class="project-thumbnail" />
+              </a>
+            </div>
+            <div class="project-detail-copy">
+              <h3>AI Job Application Assistant</h3>
+              <p>
+                A browser prototype that analyses a job description against a candidate profile, highlights missing
+                keywords and generates tailored CV, cover letter, outreach and interview-prep drafts.
+              </p>
+              <div class="project-tags" aria-label="AI Job Application Assistant tags">
+                <span>Job Search</span>
+                <span>Fit Analysis</span>
+                <span>Application Drafts</span>
+              </div>
+              <div class="project-notes">
+                <div>
+                  <h4>What it demonstrates</h4>
+                  <ul>
+                    <li>Structured input design for job and candidate evidence</li>
+                    <li>Weighted scoring for skills, experience and project relevance</li>
+                    <li>Recruiter-style first impression and risk review outputs</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4>Business value</h4>
+                  <p>Turns a stressful application process into a repeatable review workflow with clearer next actions.</p>
+                </div>
+              </div>
+              <dl class="project-meta">
+                <div><dt>Stack</dt><dd>HTML, CSS, JavaScript, local scoring rules</dd></div>
+                <div>
+                  <dt>Links</dt>
+                  <dd>
+                    <a href="https://apply.matt-yu.com" target="_blank" rel="noopener">Website</a>
+                    /
+                    <a href="https://github.com/matzyu1/ai-job-application-assistant" target="_blank" rel="noopener">View GitHub repo</a>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="project-detail project-feature" id="writing-assistant-trainer">
+            <div class="project-detail-media">
+              <a href="https://writing.matt-yu.com" target="_blank" rel="noopener">
+                <img src="assets/thumbnails/Writing_Assistant.gif" alt="Writing Assistant Trainer preview" class="project-thumbnail" />
+              </a>
+            </div>
+            <div class="project-detail-copy">
+              <h3>Writing Assistant Trainer</h3>
+              <p>
+                A browser prototype that helps turn writing samples, style rules, prompt templates and feedback notes
+                into a structured writing assistant setup that can be reused across job applications, LinkedIn posts,
+                README files and interview preparation.
+              </p>
+              <div class="project-tags" aria-label="Writing Assistant Trainer tags">
+                <span>Writing System</span>
+                <span>Prompt Design</span>
+                <span>Personal Style Training</span>
+              </div>
+              <div class="project-notes">
+                <div>
+                  <h4>What it demonstrates</h4>
+                  <ul>
+                    <li>Prompt system design for tone, structure and reusable writing rules</li>
+                    <li>Safe handling of writing samples and private examples</li>
+                    <li>Export workflow for building a personal writing assistant</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4>Business value</h4>
+                  <p>
+                    Makes personal writing support more consistent, reusable and easier to improve over time, especially
+                    when producing repeated professional materials.
+                  </p>
+                </div>
+              </div>
+              <dl class="project-meta">
+                <div><dt>Stack</dt><dd>HTML, CSS, JavaScript, local export workflow</dd></div>
+                <div>
+                  <dt>Links</dt>
+                  <dd>
+                    <a href="https://writing.matt-yu.com" target="_blank" rel="noopener">Website</a>
+                    /
+                    <a href="https://github.com/matzyu1/writing-assistant-trainer" target="_blank" rel="noopener">View GitHub repo</a>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section page two-column" id="data-projects">
+        <div class="section-label reveal">
+          <span>03</span>
+          <span>Data projects</span>
+        </div>
+        <div class="work-index reveal">
+          <header class="section-heading">
+            <h2>Data and analytics case studies.</h2>
+            <p>Business analysis projects from the connected main portfolio.</p>
+          </header>
+
+          <a class="project-row data-row" href="https://matt-yu.com/#projects" target="_blank" rel="noopener">
+            <span class="row-number">DA-01</span>
+            <div>
+              <h3>E-commerce Customer &amp; Sales Analysis</h3>
+              <p>Customer value, repeat purchase, churn and revenue contribution analysis.</p>
+            </div>
+            <span class="row-tools">PostgreSQL / SQL / Excel</span>
+            <span class="row-action">View projects</span>
+          </a>
+
+          <a class="project-row data-row" href="https://matt-yu.com/#projects" target="_blank" rel="noopener">
+            <span class="row-number">DA-02</span>
+            <div>
+              <h3>Excel Superstore Sales Dashboard</h3>
+              <p>Sales, profit, discount impact and category performance dashboard.</p>
+            </div>
+            <span class="row-tools">Excel / PivotTables</span>
+            <span class="row-action">View projects</span>
+          </a>
+
+          <a class="project-row data-row" href="https://matt-yu.com/#projects" target="_blank" rel="noopener">
+            <span class="row-number">DA-03</span>
+            <div>
+              <h3>Power BI Superstore Dashboard</h3>
+              <p>Interactive BI report for sales, margin, discount and regional performance.</p>
+            </div>
+            <span class="row-tools">Power BI / DAX / Power Query</span>
+            <span class="row-action">View projects</span>
+          </a>
+
+          <a class="project-row data-row" href="https://matt-yu.com/#projects" target="_blank" rel="noopener">
+            <span class="row-number">DA-04</span>
+            <div>
+              <h3>Digital Transaction Fraud SQL Project</h3>
+              <p>SQL exploration of transaction patterns, risk signals and payment channels.</p>
+            </div>
+            <span class="row-tools">SQL / PostgreSQL</span>
+            <span class="row-action">View projects</span>
+          </a>
+
+          <a class="project-row data-row" href="https://matt-yu.com/#projects" target="_blank" rel="noopener">
+            <span class="row-number">DA-05</span>
+            <div>
+              <h3>London Housing Market Analysis</h3>
+              <p>Housing prices, salary comparison, affordability and borough-level trends.</p>
+            </div>
+            <span class="row-tools">Excel / Power Query / Power Pivot</span>
+            <span class="row-action">View projects</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer page">
+      <div>
+        <p>&copy; <span id="year"></span> Matt Yu. AI portfolio for ai.matt-yu.com.</p>
+        <p class="site-note">
+          Note: This website was built as an AI-assisted portfolio project. I used Codex to help create and refine the
+          HTML, CSS and JavaScript, while I focused on the content, structure, design direction and project
+          presentation. I’m including this to be transparent about how the site was made and to avoid overstating my
+          coding experience.
+        </p>
+      </div>
+      <a href="#home">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
