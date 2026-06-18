@@ -271,6 +271,7 @@ h1 {
 #ai-projects .project-feature:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
+  border-bottom: 0;
 }
 
 #data-projects {
